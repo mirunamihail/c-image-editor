@@ -1,5 +1,3 @@
-314CA, Mihail Miruna-Gabriela
-
 Programul se bazeaza pe un struct ce reprezinta o imagine si atributele ei.
 Programul are rolul de a executa niste comenzi prin intermediul unor functii.
 In main acesta comenzi sunt validate si apelate in functie de ceea ce cer. 
