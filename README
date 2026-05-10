@@ -1,0 +1,27 @@
+314CA, Mihail Miruna-Gabriela
+
+Programul se bazeaza pe un struct ce reprezinta o imagine si atributele ei.
+Programul are rolul de a executa niste comenzi prin intermediul unor functii.
+In main acesta comenzi sunt validate si apelate in functie de ceea ce cer. 
+Aceste functii afiseaza mesajele corespunzatoare de eroare sau succes.
+1. Functia free_image elibereaza memoria oferita pentru imaginile color,
+respectiv grayscale.
+2. Functia load deschide fisierul cu imaginea necesara ce urmeaza sa fie
+prelucrata si o marcheaza ca loaded. Inainte de fiecare load este eliberata 
+imaginea anterioara pentru a nu exista probleme in executarea functiilor.
+3. Functia select_region salveaza prin struct marginile selectiei cerute
+de fisier.
+4. Functia select_all salveaza marginile pozei.
+5. Functie rotate roteste imaginea sau selectia la un unghi valid in functie de 
+2 criterii: tipul imaginii(greyscale sau color) si daca este rotita intreaga ima-
+gine (unde nu conteaza daca este patrata) sau daca este rotita o selectie unde este
+verificata selectia patrata.
+6. Functia crop reduce poza la selectie si o actualizeaza.
+7. Functia equalize egalizeaza histograma imaginilor alb-negru si schimba valoarea
+pixelilor pentru ca poza sa arate mai uniform.
+8. Functia histograma calculeaza si afiseaza histograma unei poze. Imparte pixelii intr-
+un nr de bin-uri. Este numarata frecventa fiecarui bin si este afisata histograma in
+functie de bin-ul cu frecventa maxima.
+9.Functia apply in functie de kernelul filtrului, aplica un filtru imaginii sau selectiei.
+10. Functia exit da free imaginii grayscale sau color si incheie programul.
+
